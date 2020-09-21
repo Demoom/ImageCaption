@@ -15,7 +15,7 @@ After I training the whole model, here is best result of test data.<br>
 <img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result.jpg" width="40%" height="40%"><br>
 And here are two bad results.<br>
 <img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result2.jpg" width="30%" height="30%">
-<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result3.jpg" width="30%" height="30%"><br>
+<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result3.jpg" width="30%" height="30%">
 This may due to model not recognize this little girl well, and model also detect this grey road as a river.<br>
 The model tell so many "is" is because "is" is a high frequency word, this can improve by using Beam Search.<br>
 
