@@ -10,12 +10,12 @@ Here is the whole model.<br>
 <img src="https://github.com/Demoom/ImageCaption/blob/master/Image/model.png" width="40%" height="40%"><br>
 Left is CNN model, which is used to get the features of pictures. Right is LSTM model, which is used to encode the description. Then, put the features and description into another network for final words predict.<br>
 The way I train models like this, use previous description to predict next word, start with "<".<br>
-![image](https://github.com/Demoom/ImageCaption/blob/master/Image/train_method.PNG)<br>
+<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/train_method.PNG" width="40%" height="40%"><br>
 After I training the whole model, here is best result of test data.<br>
 <img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result.jpg" width="40%" height="40%"><br>
 And here are two bad results.<br>
-<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result2.jpg" width="40%" height="40%">
-<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result3.jpg" width="40%" height="40%"><br>
+<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result2.jpg" width="30%" height="30%">
+<img src="https://github.com/Demoom/ImageCaption/blob/master/Image/result3.jpg" width="30%" height="30%"><br>
 This may due to model not recognize this little girl well, and model also detect this grey road as a river.<br>
 The model tell so many "is" is because "is" is a high frequency word, this can improve by using Beam Search.<br>
 
